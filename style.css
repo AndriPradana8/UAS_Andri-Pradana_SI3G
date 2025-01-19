@@ -1,0 +1,150 @@
+/* class warna */
+.abuabu {
+    background-color: #5C5C5C;
+}
+.bgpri {
+    background-color: #282C28;
+}
+.bgred {
+    background-color: #FF0000;
+}
+.bgku {
+    background-color: #D5D5D5;
+}
+.bgcard {
+    background-color: #D9D9D9;
+}
+
+.textpri {
+    color: #282C28;
+}
+.textred {
+    color: #FF0000;
+}
+.textku {
+    color: #D5D5D5;
+}
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Inter", serif;
+}
+
+
+/* navbar */
+.navbar {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+
+.navbar-nav {
+    gap: 8rem;
+}
+
+
+/* hero section */
+.hero {
+    background: linear-gradient(to right, #282C28 60%, #0F1410 60% 100%);
+}
+
+.content {
+    height: 100vh;
+}
+
+.content,
+.allcollec {
+    font-family: "Lexend Exa", serif;
+}
+
+.content h1 {
+    font-size: 9rem;
+}
+
+.hero .container img {
+    left: 62%; transform: translateX(-50%);
+}
+
+
+
+/* Carousel */
+.bestseller .carousel-control-prev,
+.bestseller .carousel-control-next {
+  position: static;
+  display: inline-block;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.carousel-control-prev {
+  margin-right: 20px;
+}
+
+.carousel-control-next {
+  margin-left: 30px;
+}
+
+
+/* product */
+.product a {
+    color: #D9D9D9;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.product a:hover {
+    color: #FF0000;
+}
+
+.btn-link {
+    transition: color .3s linear,
+                text-decoration .3s ease-in-out;
+}
+
+.btn-link.active {
+    color: #FF0000 !important;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+
+.center-screen {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1050;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1040;
+}
+
+.accordion-button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+
+
+
+
+
+
+
+
